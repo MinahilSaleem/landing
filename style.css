@@ -1,0 +1,77 @@
+:root{
+    --color:#144971;
+    --content:white;
+    --greybg:#f4f4f4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:var(--color);
+    line-height: 1.6 ;
+}
+#ShowCase{
+    background-image: url('https://media.istockphoto.com/id/473796794/photo/desert-dunes.jpg?b=1&s=612x612&w=0&k=20&c=-2igXq9oGwase6ThMn7MdzmFKskr4uCgyrp4RyGL8JM=');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+#ShowCase h1{
+    line-height: 1.2;
+    font-size: 50px;
+}
+
+#ShowCase p{
+    font-size: 20px;
+}
+#ShowCase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--color);
+    border: 1px solid var(--color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#ShowCase .button:hover{
+    background-color:var(--color);
+    color: var(--content);
+}
+#section-a{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--color);
+    color: var(--content);
+
+}
+#section-b{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--greybg);
+
+}
+#section-c{
+    display: flex;
+}
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box1,#section-c .box3{
+    background-color: var(--color);
+    color: var(--content);
+}
+
+#section-c .box2{
+    background-color: var(--greybg);
+}
